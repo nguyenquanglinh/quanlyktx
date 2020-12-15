@@ -1,0 +1,14 @@
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\QuanLyKyTucXa.exe.config
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\QuanLyKyTucXa.exe
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\QuanLyKyTucXa.pdb
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\EntityFramework.dll
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\EntityFramework.xml
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.csprojResolveAssemblyReference.cache
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.Form1.resources
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.Properties.Resources.resources
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.QuanLySinhVien.resources
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.csproj.GenerateResource.Cache
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.exe
+c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.pdb

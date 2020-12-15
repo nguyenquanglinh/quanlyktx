@@ -12,3 +12,6 @@ c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\Quan
 c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.csproj.GenerateResource.Cache
 c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.exe
 c:\users\thang\onedrive\documents\visual studio 2015\Projects\QuanLyKyTucXa\QuanLyKyTucXa\obj\Debug\QuanLyKyTucXa.pdb
+C:\Users\thang\Source\Repos\quanlyktx\bin\Debug\QuanLyKyTucXa.exe.config
+C:\Users\thang\Source\Repos\quanlyktx\obj\Debug\QuanLyKyTucXa.exe
+C:\Users\thang\Source\Repos\quanlyktx\obj\Debug\QuanLyKyTucXa.pdb

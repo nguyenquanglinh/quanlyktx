@@ -34,11 +34,11 @@ namespace QuanLyKyTucXa.DAO
             }
         }
 
-        public bool DeleteDaiLy(HopDong hd)
+        public bool DeleteHopDong(HopDong hd)
         {
             try
             {
-                model.HopDongs.Remove(hd);
+                model.HopDongs.Remove(GetHopDong(hd.maHopDong));
                 model.SaveChanges();
                 return true;
             }
@@ -53,11 +53,11 @@ namespace QuanLyKyTucXa.DAO
             return model.HopDongs.Single(i => i.maHopDong == id);
         }
 
-        public bool EditSinhVien(string id, HopDong hd_n)
+        public bool EditHopDong(HopDong hd_n)
         {
             try
             {
-                var hd_c = GetHopDong(id);
+                var hd_c = GetHopDong(hd_n.maHopDong);
                 hd_c.maSinhVien = hd_n.maSinhVien;
                 hd_c.maNhanVien = hd_n.maNhanVien;
                 hd_c.soPhong = hd_n.soPhong;

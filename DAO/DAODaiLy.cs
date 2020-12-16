@@ -38,7 +38,7 @@ namespace QuanLyKyTucXa.DAO
         {
             try
             {
-                model.DaiLies.Remove(dl);
+                model.DaiLies.Remove(GetDaiLy(dl.maDaiLy));
                 model.SaveChanges();
                 return true;
             }
@@ -53,11 +53,11 @@ namespace QuanLyKyTucXa.DAO
             return model.DaiLies.Single(i => i.maDaiLy == id);
         }
 
-        public bool EditSinhVien(string id, DaiLy dl_n)
+        public bool EditDaiLy(DaiLy dl_n)
         {
             try
             {
-                var dl_c = GetDaiLy(id);
+                var dl_c = GetDaiLy(dl_n.maDaiLy);
                 dl_c.tenDaiLy = dl_n.tenDaiLy;
                 dl_c.SDT = dl_n.SDT;
                 dl_c.diaChi = dl_n.diaChi;

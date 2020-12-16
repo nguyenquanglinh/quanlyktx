@@ -45,6 +45,6 @@ namespace QuanLyKyTucXa.entity
         public string lopKhoa { get; set; }
 
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<HopDong> HopDongs { get; set; }
+        protected virtual ICollection<HopDong> HopDongs { get; set; }
     }
 }

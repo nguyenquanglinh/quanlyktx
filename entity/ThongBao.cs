@@ -9,6 +9,16 @@ namespace QuanLyKyTucXa.entity
     [Table("ThongBao")]
     public partial class ThongBao
     {
+        public ThongBao() { }
+
+        public ThongBao(string text1, string text2, string text3, string text4)
+        {
+            this.maThongBao = text1;
+            this.maNhanVien = text2;
+            this.noiDung = text3;
+            this.ngayLap = DateTime.Parse(text4);
+        }
+
         [Key]
         [StringLength(10)]
         public string maThongBao { get; set; }
@@ -22,6 +32,6 @@ namespace QuanLyKyTucXa.entity
         [StringLength(10)]
         public string maNhanVien { get; set; }
 
-        public virtual NhanVien NhanVien { get; set; }
+        protected virtual NhanVien NhanVien { get; set; }
     }
 }

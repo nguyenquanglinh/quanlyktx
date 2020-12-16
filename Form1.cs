@@ -22,5 +22,23 @@ namespace QuanLyKyTucXa
             new QuanLySinhVien(this).Show();
             this.Hide();
         }
+
+        private void btnHD_Click(object sender, EventArgs e)
+        {
+            new QuanLyHopDong(this).Show();
+            this.Hide();
+        }
+
+        private void btnThongBao_Click(object sender, EventArgs e)
+        {
+            new QuanLyThongBao(this).Show();
+            Hide();
+        }
+
+        private void btnDaiLy_Click(object sender, EventArgs e)
+        {
+            new QuanLyDaiLy(this).Show();
+            Hide();
+        }
     }
 }

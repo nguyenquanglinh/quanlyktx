@@ -38,7 +38,7 @@ namespace QuanLyKyTucXa.DAO
         {
             try
             {
-                model.ThongBaos.Remove(tb);
+                model.ThongBaos.Remove(GetThongBao(tb.maThongBao));
                 model.SaveChanges();
                 return true;
             }
@@ -53,11 +53,11 @@ namespace QuanLyKyTucXa.DAO
             return model.ThongBaos.Single(i => i.maThongBao == id);
         }
 
-        public bool EditSinhVien(string id, ThongBao tb_n)
+        public bool EditThongBao( ThongBao tb_n)
         {
             try
             {
-                var tb_c = GetThongBao(id);
+                var tb_c = GetThongBao(tb_n.maThongBao);
                 tb_c.ngayLap = tb_n.ngayLap;
                 tb_c.noiDung = tb_n.noiDung;
                 tb_c.maNhanVien = tb_n.maNhanVien;

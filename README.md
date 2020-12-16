@@ -1,0 +1,2 @@
+# quanlyktx
+vidu demo
